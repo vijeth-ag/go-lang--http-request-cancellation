@@ -5,7 +5,7 @@ let signal = controller.signal;
 function getMovies(){
     console.log('getMovies');
 
-    fetch('https://0bbb-2401-4900-1cc4-b383-50bc-5963-df6c-939.in.ngrok.io/movie/pulpfiction/ticket/actions/search', {
+    fetch('<go_server_url>/movie/pulpfiction/ticket/actions/search', {
         signal: signal
     })
     .then(response => {
